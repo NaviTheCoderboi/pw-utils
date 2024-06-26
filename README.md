@@ -1,4 +1,4 @@
-<h1 align="center"> a collection of scripts to use pw app efficiently </h1>
+<h1 align="center"> PW Utils </h1>
 a collection of scripts to use pw app efficiently
 
 ## usage
