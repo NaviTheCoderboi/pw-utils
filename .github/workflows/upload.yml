@@ -21,6 +21,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
+          git branch -m main
           git add .
           if [-z "$(git status --porcelain)"]; then
               echo "::set-output name=push::false"
@@ -34,3 +35,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_TOKEN }}
+          branch: ${{ github.ref }}
