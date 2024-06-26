@@ -1,0 +1,20 @@
+{
+    "name": "pw-utils",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "type": "module",
+    "scripts": {
+        "build": "pnpm tsc && node scripts/build.js",
+        "build:fast": "node scripts/build.js",
+        "dev": "node scripts/dev.js",
+        "tc": "tsc --noEmit"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "esbuild": "^0.21.4",
+        "typescript": "^5.4.5"
+    }
+}

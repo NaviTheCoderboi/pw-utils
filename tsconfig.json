@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext", "dom"],
+        "target": "ESNext",
+        "module": "ESNext",
+        "strict": true,
+        "moduleResolution": "Bundler",
+        "removeComments": true,
+        "esModuleInterop": true,
+        "alwaysStrict": true,
+        "allowUnreachableCode": false,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noEmit": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules/**/*", "dist/**/*"]
+}
